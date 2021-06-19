@@ -1,0 +1,173 @@
+body{
+     background-color: rgb(233, 218, 160);
+} 
+h1{
+   font-weight: bold;
+   text-align: center;
+   font-size: 500%;
+   font-family: 'Lucida Bright' , serif;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: rgb(156, 62, 98);
+} 
+         
+p{
+  text-align: center;
+  font-size: 250%;
+  font-family: Garamond , serif;
+  margin-top: 0px;
+  color: rgb(192, 157, 175);
+}  
+
+.fotoPrincipal{
+      position: relative;
+      width: 850px;
+      height: 700px;
+      margin-left: 250px;
+      margin-right: 100px;
+}
+.menuBar{
+      list-style-type: none;  
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      border-top: 0px;
+      border-bottom: 5px dotted rgb(167, 98, 98);
+}   
+.menu{
+      display: inline-block;
+      background-color: rgb(248, 232, 240);
+      width: 5%;
+      text-align: center;
+}
+.textoPieles{
+      text-align: right;
+      font-family: 'Padauk', sans-serif;
+      color: rgb(87, 62, 62);
+      font-size: 20px;
+      padding-left: 400px;
+}  
+#fotoTexto{
+      position: relative;
+      bottom: 185px;
+      left: 50px;
+}          
+ 
+form{
+     border: 4px solid rgb(189, 134, 134);  
+} 
+#fotoTexto:hover{
+      transform: translate(10px, 20px);
+}
+.menu:hover{
+      transform: scale(1,2);
+      background-color: rgb(165, 107, 122);
+}
+.fotoPrincipal:hover{
+      height: 850px;
+      width: 800px;
+      transition: all 2s;
+}
+.biotipoCutaneo{
+      text-align: left;
+      font-size: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 100px;
+      margin-right: 100px;
+      color: rgb(119, 94, 70);
+}
+.fotoPiel{
+      position: relative;
+}
+.rutinaBasica{
+      text-align: right;
+      font-size: 20px;
+      margin-left: 100px;
+      color: rgb(119, 94, 70);
+}
+.tituloDestacado1{
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tituloDestacado2{
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.textoCabello{
+      text-align: left;
+      font-size: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(119, 94, 70);
+      margin-top: 100px;
+      width: 800px;
+}
+.fotoCabello{
+      position: relative;
+      left: 800px;
+      width: 500px;
+      bottom: 700px;
+}
+.fraseDestacada{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.padre{
+      display: grid;
+      grid-template-columns: 300px 600px 100px;
+      grid-template-rows: 400px 400px 400px 400px;
+
+      grid-template-areas: 
+      "area1 area2 area2"
+      "area1 area3 area4"
+      "area1 area6 area4"
+      "area1 area5 area5";
+      column-gap: 10px;
+      row-gap: 10px;
+}
+ .nav{
+      grid-area: area1;
+}
+.header{    
+      grid-area: area2;
+}
+.section{   
+      grid-area: area3;
+}
+.footer{
+      grid-area: area5;
+}
+.aside{
+      grid-area: area4;
+}
+.sectionDos{
+      grid-area: area6;
+}
+#helloGorgeous{
+      width: 500px;
+      height: 400px;
+}
+#uñas{
+      width: 600px;
+      height: 400px;
+}
+#chicaRulos{
+      width: 300px;
+      height: 600px;
+}
+#skinCare{
+      width: 400px;
+      height: 600px;
+}
+#chicaBañera{
+      width: 400px;
+      height: 400px;
+}
+#chicaCompras{
+      width: 500px;
+      height: 400px;
+}
